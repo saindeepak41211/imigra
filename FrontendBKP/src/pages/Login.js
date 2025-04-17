@@ -28,7 +28,7 @@ const Login = () => {
                 console.log(result.data.message)
                 alert(result.data.message)
                 // redirect to dat.js page
-                // window.location.href = "/data"
+                 window.location.href = "/data"
                 setAuth(result.data.token, () => {
                     window.location.href = "/data"
                 })

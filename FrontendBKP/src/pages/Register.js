@@ -20,7 +20,7 @@ const Login = () => {
     }
 
     const registerNow = () => {
-        axios.post(`${process.env.REACT_APP_NODE_URL}/user/register`, { email: user.email, password: user.password })
+        axios.post("http://localhost:3006/user/register", { email: user.email, password: user.password })
             .then(result => {
                 // register success and go to login page
                 console.log(result)

@@ -27,7 +27,6 @@
         "eslint-plugin-flowtype": "2.50.1",
         "eslint-plugin-import": "2.14.0",
         "eslint-plugin-jsx-a11y": "6.1.2",
-        "eslint-plugin-react": "7.12.4",
         "file-loader": "2.0.0",
         "fs-extra": "7.0.1",
         "google-map-react": "^2.2.0",
@@ -50,6 +49,7 @@
         "react-dev-utils": "^8.0.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "^6.4.5",
+        "react-scripts": "^5.0.1",
         "reactstrap": "^9.1.5",
         "resolve": "1.10.0",
         "sass-loader": "7.1.0",
@@ -131,5 +131,8 @@
         "presets": [
             "react-app"
         ]
+    },
+    "devDependencies": {
+        "eslint-plugin-react": "^7.37.4"
     }
 }
